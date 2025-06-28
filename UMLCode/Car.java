@@ -16,6 +16,9 @@ public class Car {
     }
 
     public void assemble() {
-        System.out.println("Car with driving system: " + this.drivingSystem + " has been assembled");
+        System.out.println("Car with driving system: " + this.drivingSystem + " has been assembled with parts:");
+        for(CarParts part : carParts) {
+            System.out.println("- " + part);
+        }
     }
 }
