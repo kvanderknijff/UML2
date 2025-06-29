@@ -19,7 +19,7 @@ public class Interior extends CarParts {
     public void printDetails() {
         System.out.println("Price: " + price);
         System.out.println("Color: " + color);
-        System.out.println("Material" + material);
+        System.out.println("Material: " + material);
         System.out.println("Pattern: " + pattern);
     }
 

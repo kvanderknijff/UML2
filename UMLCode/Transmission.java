@@ -18,7 +18,7 @@ public class Transmission extends CarParts {
     @Override
     public void printDetails() {
         System.out.println("Price: " + price);
-        System.out.println("Transmission type" + transmissionType);
+        System.out.println("Transmission type: " + transmissionType);
         System.out.println("Amount of gears: " + gearAmount);
         System.out.println("Gear ratio: " + gearRatio);
     }
