@@ -1,4 +1,4 @@
-abstract class DrivingSystem {
+public abstract class DrivingSystem {
     protected int price;
     protected String model;
 
