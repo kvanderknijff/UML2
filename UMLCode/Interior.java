@@ -3,7 +3,8 @@ public class Interior extends CarParts {
     public String material;
     public String pattern;
 
-    public Interior(String color, String material, String pattern) {
+    public Interior(int price, String color, String material, String pattern) {
+        this.price = price;
         this.color = color;
         this.material = material;
         this.pattern = pattern;

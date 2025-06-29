@@ -3,7 +3,8 @@ public class Chasis extends CarParts {
     public String material;
     public int length;
 
-    public Chasis(String color, String material, int length) {
+    public Chasis(int price, String color, String material, int length) {
+        this.price = price;
         this.color = color;
         this.material = material;
         this.length = length;

@@ -1,5 +1,5 @@
 abstract class CarParts {
-    public int price;
+    protected int price;
 
     public abstract int getPrice();
     public abstract void printDetails();

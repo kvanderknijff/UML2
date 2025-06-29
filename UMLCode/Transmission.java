@@ -3,7 +3,8 @@ public class Transmission extends CarParts {
     public int gearRatio;
     public String transmissionType;
 
-    public Transmission(int gearAmount, int gearRatio, String transmissionType) {
+    public Transmission(int price, int gearAmount, int gearRatio, String transmissionType) {
+        this.price = price;
         this.gearAmount = gearAmount;
         this.gearRatio = gearRatio;
         this.transmissionType = transmissionType;

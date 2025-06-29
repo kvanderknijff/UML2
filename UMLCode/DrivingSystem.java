@@ -1,8 +1,7 @@
 abstract class DrivingSystem {
-    private int price;
-    private String model;
-
-    abstract String getModel();
+    protected int price;
+    protected String model;
 
     abstract int getPrice();
+    abstract String getModel();
 }

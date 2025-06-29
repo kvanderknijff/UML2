@@ -3,7 +3,8 @@ public class Wheel extends CarParts {
     public int widthInch;
     public String material;
     
-    public Wheel(int diameterInch, int widthInch, String material) {
+    public Wheel(int price, int diameterInch, int widthInch, String material) {
+        this.price = price;
         this.diameterInch = diameterInch;
         this.widthInch = widthInch;
         this.material = material;

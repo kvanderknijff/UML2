@@ -3,7 +3,8 @@ public class FuelStorage extends CarParts {
     public String material;
     public int range;
 
-    public FuelStorage(String color, String material, int range) {
+    public FuelStorage(int price, String color, String material, int range) {
+        this.price = price;
         this.color = color;
         this.material = material;
         this.range = range;
