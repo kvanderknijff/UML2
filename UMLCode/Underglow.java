@@ -1,7 +1,8 @@
 public class Underglow extends ExteriorModification {
-    public Underglow(int price, String color) {
+    public Underglow(int price, String color, AbstractExterior abstractExterior) {
         this.price = price;
         this.color = color;
+        this.abstractExterior = abstractExterior;
     }
 
     @Override

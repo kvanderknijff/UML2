@@ -1,7 +1,8 @@
 public class WindowTint extends ExteriorModification {
-    public WindowTint(int price, String color) {
+    public WindowTint(int price, String color, AbstractExterior abstractExterior) {
         this.price = price;
         this.color = color;
+        this.abstractExterior = abstractExterior;
     }
     
     @Override

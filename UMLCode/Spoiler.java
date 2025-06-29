@@ -1,7 +1,8 @@
 public class Spoiler extends ExteriorModification {
-    public Spoiler(int price, String color) {
+    public Spoiler(int price, String color, AbstractExterior abstractExterior) {
         this.price = price;
         this.color = color;
+        this.abstractExterior = abstractExterior;
     }
     
     @Override
