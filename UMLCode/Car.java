@@ -1,9 +1,9 @@
 import java.util.List;
 
 public class Car {
-    private DrivingSystem drivingSystem;       // Compositie
-    private PowerSource powerSource;           // Aggregatie
-    private List<CarParts> carParts;           // Aggregatie
+    private DrivingSystem drivingSystem;
+    private PowerSource powerSource;
+    private List<CarParts> carParts;
 
     public Car(DrivingSystem drivingSystem, PowerSource powerSource, List<CarParts> carParts) {
         this.drivingSystem = drivingSystem;

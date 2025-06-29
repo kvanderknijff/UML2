@@ -1,4 +1,4 @@
-abstract  class DrivingSystem {
+abstract class DrivingSystem {
     private int price;
     private String model;
 
